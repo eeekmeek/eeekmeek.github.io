@@ -1,23 +1,7 @@
 <!DOCTYPE html>
 
 <html>
-	function openCity(evt, cityName) {
-    var i, tabcontent, tablinks;
-
-    tabcontent = document.getElementsByClassName("tabcontent");
-    for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
-    }
-
-    // Get all elements with class="tablinks" and remove the class "active"
-    tablinks = document.getElementsByClassName("tablinks");
-    for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
-    }
-
-    document.getElementById(cityName).style.display = "block";
-    evt.currentTarget.className += " active";
-
+	
 	<head>
 		<link rel="stylesheet" type="text/css" href="styles.css">
 		<center><title>Homepage</title></center>
@@ -28,8 +12,8 @@
 
 	<body><center>
 		<div class="tab">
-  			<button class="tablinks" onclick="openCity(event, 'wallofshame.html')">Home</button>
-  			<button class="tablinks" onclick="openCity(event, 'calendar.html')">Timetable</button>
+			<button class="tablinks" onclick=<a href ="wallofshame.html">Home</button></a>
+		<button class="tablinks" onclick=<a href ="calendar.html">Timetable</button></a>
 			
 		</div>
 		
